@@ -1,0 +1,38 @@
+.footerContainer{
+    background-color: #2d2e32;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 10rem;
+}
+.footerContainer h3{
+    color: #FFF;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 1070px)
+{
+    .footerContainer{
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 10rem 3rem 1rem;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .footerContainer{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 2rem;
+    }
+    .footerContainer h3{
+        padding-bottom: 30px;
+    }
+}

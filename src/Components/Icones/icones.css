@@ -1,0 +1,17 @@
+.circulo{
+    height: 4rem;
+    width: 4rem;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.286);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  
+  .circulo img{
+    height: auto;
+    width: 2.8rem;
+    margin: 0;
+  }
