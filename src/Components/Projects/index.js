@@ -7,6 +7,7 @@ function Projects({
   site,
   code,
   isInverted,
+  imagem,
 }) {
   return (
     <div
@@ -14,7 +15,7 @@ function Projects({
     >
       <div className="projectImg">
         <a target="_blank" href={site} rel="noreferrer">
-          <img src="EU.jpg" alt="website" />
+          <img src={imagem} alt="website" />
         </a>
       </div>
       <div className="projectInfo">

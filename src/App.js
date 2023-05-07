@@ -77,26 +77,29 @@ function App() {
             <h3>Each project is a unique piece of development 🧩</h3>
             <div className="projects">
               <Projects
-                titulo="CAR RENTAL 🚗"
-                paragrafo="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-                site="https://github.com/MatheusProtti"
-                tecnologias={["REACT", "HTML", "CSS"]}
-                code="#"
+                titulo="Site UNIPEÇAS"
+                paragrafo="O site da Unipecas é uma vitrine online para a empresa que fabrica e fornece peças para diversos segmentos industriais. Com um design limpo e organizado, o site apresenta uma navegação intuitiva que permite aos visitantes encontrar facilmente informações sobre os produtos, serviços, história e contatos da empresa."
+                site="https://www.unipecas.ind.br/"
+                tecnologias={["HTML", "CSS", "REACT.JS", "NEXT.JS"]}
+                code="https://github.com/MatheusProtti/unipecas"
+                imagem="unipecas.jpg"
               />
               <Projects
-                titulo="CAR RENTAL 🚗"
-                paragrafo="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
+                titulo="EM BREVE"
+                paragrafo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non orci viverra, euismod mauris a, fermentum augue. Cras eget ultricies felis. Aliquam auctor commodo felis vel faucibus."
                 site="https://github.com/MatheusProtti"
-                tecnologias={["HTML", "CSS", "JS"]}
+                tecnologias={["HTML", "HTML", "HTML"]}
                 code="#"
+                imagem="em_breve.png"
                 isInverted
               />
               <Projects
-                titulo="CAR RENTAL 🚗"
-                paragrafo="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
+                titulo="EM BREVE"
+                paragrafo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non orci viverra, euismod mauris a, fermentum augue. Cras eget ultricies felis. Aliquam auctor commodo felis vel faucibus."
                 site="https://github.com/MatheusProtti"
-                tecnologias={["HTML", "CSS"]}
+                tecnologias={["HTML", "HTML"]}
                 code="#"
+                imagem="em_breve.png"
               />
             </div>
           </div>
