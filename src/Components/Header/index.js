@@ -16,22 +16,22 @@ function Header() {
         <ul id="navBar" className={isActive ? "ativo" : ""}>
           <li>
             <a onClick={handleClick} href="#home">
-              Home
+              Inicio
             </a>
           </li>
           <li>
             <a onClick={handleClick} href="#about">
-              About
+              Sobre
             </a>
           </li>
           <li>
             <a onClick={handleClick} href="#projects">
-              Projects
+              Projetos
             </a>
           </li>
           <li>
             <a onClick={handleClick} href="#contact">
-              Contact
+              Contato
             </a>
           </li>
         </ul>

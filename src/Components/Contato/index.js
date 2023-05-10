@@ -7,14 +7,14 @@ function Contato() {
       <div className="containerContact">
         {/* <div className="contactContent"> */}
         <div className="contactTitle">
-          <p>Contact</p>
-          <h3>Don't be shy! Call me! 👇</h3>
+          <p>Contato</p>
+          <h3>Não perca tempo! me chame! 👇</h3>
         </div>
         <div className="contactLocation">
           <div className="contactBox">
             <Icones icone="mapa.png" descricao="icone mapa" />
             <div className="contactInfo">
-              <h3>Location</h3>
+              <h3>Localização</h3>
               <p>Porto Alegre, Brasil</p>
             </div>
           </div>

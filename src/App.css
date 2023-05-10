@@ -240,6 +240,11 @@
   }
   .listaTecnologias{
     gap: 10px;
+    padding-left: 10px;
+  }
+  .contentAbout img{
+    width: 400px;
+    margin: 0 auto;
   }
   
 }

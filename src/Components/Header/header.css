@@ -37,9 +37,18 @@
     border-radius: 3px;
     background-color: #111;
     margin: 5px auto;
+
 }
 
 @media screen and (max-width: 800px){
+    .header{
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 2.5rem 25px 3.125rem;
+        position: sticky;
+    }
     #menu{
         display: block;
         padding-right: 20px;

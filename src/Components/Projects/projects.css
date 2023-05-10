@@ -118,6 +118,15 @@
         width: auto;
         height: 250px;
     }
+    .projectInfo{
+        max-width: 300px;
+    }
+    .stacks{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-row-gap: 18px;
+    }
 }
 
   @keyframes subirDescer {

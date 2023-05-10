@@ -4,7 +4,7 @@ import Icones from "../Icones/index";
 function Footer() {
   return (
     <div className="footerContainer">
-      <h3>Copyright © 2023. All rights are reserved</h3>
+      <h3>Copyright © 2023. Todos os direitos reservados</h3>
       <div className="footerLinks">
         <Icones
           icone="linkedin.png"
