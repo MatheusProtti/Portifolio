@@ -35,4 +35,7 @@
     .footerContainer h3{
         padding-bottom: 30px;
     }
+    .footerLinks a{
+       text-align: center;
+    }
 }

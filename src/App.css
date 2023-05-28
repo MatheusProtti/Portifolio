@@ -201,7 +201,14 @@
   }
   .contentAbout img{
     padding-top: 40px;
+    margin: 0;
   }
+  /* .contentAbout img{
+    border-radius: 1.7rem;
+    height: 370px;
+    width: 410px;
+    margin: 0 170px;
+  } */
   .infoMe{
     gap: 5rem;
   }
@@ -243,8 +250,8 @@
     padding-left: 10px;
   }
   .contentAbout img{
-    width: 400px;
-    margin: 0 auto;
+    width: 300px;
+    /* margin: 0 auto; */
   }
   
 }
