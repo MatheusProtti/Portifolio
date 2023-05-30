@@ -59,11 +59,13 @@
     word-wrap: break-word;
 }
 .stacks p{
+    width: auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.232);
     color: #000;
     font-weight: 600;
     padding: 0.6rem 0.8rem;
+    text-align: center;
 }
 .links{
     display: flex;

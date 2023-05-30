@@ -9,6 +9,9 @@
     border-radius: 50%;
   }
   
+   .circulo a{
+   text-align: center;
+  }
   
   .circulo img{
     height: auto;
@@ -21,9 +24,5 @@
   .circulo{
     height: 3.2rem;
     width: 3.2rem;
-  }
-  .circulo a{
-   text-align: center;
-  }
-  
+  } 
 }
